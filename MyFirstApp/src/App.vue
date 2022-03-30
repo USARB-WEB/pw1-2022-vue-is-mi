@@ -9,6 +9,9 @@ import { RouterLink, RouterView } from "vue-router";
       <RouterLink to="/">Home</RouterLink>
       <RouterLink to="/about">About</RouterLink>
       <RouterLink to="/photos">Photos</RouterLink>
+      <RouterLink to="/products">Products</RouterLink>
+      <RouterLink to="/shopping-cart">Shopping cart</RouterLink>
+
     </nav>
     <header>
       <img
