@@ -4,7 +4,8 @@ import { RouterLink, RouterView } from "vue-router";
 </script>
 
 <template>
-  <header>
+  <div>
+    <header>
     <img
       alt="Vue logo"
       class="logo"
@@ -22,6 +23,7 @@ import { RouterLink, RouterView } from "vue-router";
   </header>
 
   <RouterView />
+  </div>
 </template>
 
 <style>
